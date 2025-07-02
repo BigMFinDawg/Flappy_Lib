@@ -13,7 +13,7 @@ pipeImg.src = 'reign_can.png';
 const WIDTH = 400;
 const HEIGHT = 600;
 const GROUND_HEIGHT = 80;
-const BIRD_SIZE = 56;
+const BIRD_SIZE = 64;
 const GRAVITY = 0.5;
 const FLAP_STRENGTH = -8;
 const PIPE_WIDTH = 90;
@@ -21,7 +21,7 @@ const PIPE_GAP = 160;
 const PIPE_SPEED = 2.5;
 const PIPE_INTERVAL = 90; // frames
 const PIPE_HEIGHT = 200; // for can image
-const BIRD_HITBOX_RATIO = 0.6; // Slimmer hitbox for more accurate collision
+const BIRD_HITBOX_RATIO = 0.5; // Slimmer hitbox for more accurate collision
 
 // Game state
 let bird = null;
