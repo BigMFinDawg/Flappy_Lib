@@ -20,7 +20,7 @@ const PIPE_WIDTH = 90;
 const PIPE_GAP = 160;
 const PIPE_SPEED = 2.5;
 const PIPE_INTERVAL = 90; // frames
-const PIPE_HEIGHT = 180; // for can image
+const PIPE_HEIGHT = 200; // for can image
 const BIRD_HITBOX_RATIO = 0.4; // Slimmer hitbox for more accurate collision
 
 // Game state
